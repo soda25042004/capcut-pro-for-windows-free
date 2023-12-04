@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <style>
+        .thead{
+            background-color: rgb(9, 182, 9);
+            display: flex;
+            justify-content: space-between;
+        }
+        .lef{
+            
+            color: white;
+            margin-left: 20px;
+        }
+        .rig{
+            margin-right: 20px;
+            
+        }
+        .rig a{
+            text-decoration: none;
+            color: white;
+            padding: 1vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="thead">
+        <div class="lef">
+        <span>Help</span>
+        <i style="margin-left: 10px;" class="fa-solid fa-phone"></i>
+        <span>+1 635 789 542</span>
+        </div>
+        <div class="rig">
+            <span>
+                <a href="#">MY ACCOUNT</a>
+                <a href="#"> SING IN</a>
+                <a href="#">CREAT ACCOUNT</a>
+            </span>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-success text-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#"><h3>TS shop</h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  New Product
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="#">Action</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider text-light"></li>
+                  <li><a class="dropdown-item text-light" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Page
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">All page link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle d-inline-block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-cart-shopping "></i>
+                        CART ($300.00)
+                        
+                    </a>
+                    <i class="fa-solid fa-magnifying-glass d-inline-block "></i>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    
+                  <div>
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid mt-2">
+        <div class="row">
+      <div class="alert alert-light" role="alert">
+        Home / Category / Cart
+      </div>
+      <div class="bougth" style="display: flex; justify-content: space-between;">
+        <span><h3><i class="fa-solid fa-cart-shopping"></i>Shopping cart</h3></span>
+        <span><i class="fa-solid fa-chevron-left"></i>Back to shopping</span>
+      </div>
+
+
+      <div class="bang col-xxl-8 col-xl-8 col-lg-12">
+      <table class="table" style="border: 1px solid gray;">
+        <thead>
+          <tr>
+            <th scope="col" class="col-1">PRODUCT</th>
+            <th scope="col" class="col-6">DETAILS</th>
+            <th scope="col" class="col-1">QNT</th>
+            <th scope="col" class="col-1">DISCOUNT</th>
+            <th scope="col" class="col-1">TOTAL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><img src="h1.webp" alt="" width="100%"></th>
+            <td><div class="name" style="float: left;">
+                  <b>Chỉ cần chờ đợi</b><br>
+                  <p>hư vô</p>
+                  <p><b>$8.88</b></p>
+                </div>
+                <div class="delete" style="float: right; ">
+                  <i class="fa-solid fa-trash fa-2xl m-5"></i>
+                </div>
+            </td>
+            <td><nav aria-label="...">
+              <ul class="pagination mt-4">
+                <li class="page-item ">
+                  <span class="page-link">+</span>
+                </li>
+                
+                <li class="page-item ">
+                  <span class="page-link">2</span>
+                </li>
+                
+                <li class="page-item">
+                  <a class="page-link" href="#">-</a>
+                </li>
+              </ul>
+            </nav>
+          </td>
+            <td><div class="te m-4">0</div></td>
+            <td><div class="te m-4"><b>$300</b></div></td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="h2.jpg" alt="" width="100%"></th>
+            <td><div class="name" style="float: left;">
+                  <b>Rực rỡ hơn mặt trời</b><br>
+                  <p>Huỷ diệt</p>
+                  <p><b>$6.67</b></p>
+                </div>
+                <div class="delete" style="float: right; ">
+                  <i class="fa-solid fa-trash fa-2xl m-5"></i>
+                </div>
+            </td>
+            <td><nav aria-label="...">
+              <ul class="pagination mt-4">
+                <li class="page-item ">
+                  <span class="page-link">+</span>
+                </li>
+                
+                <li class="page-item ">
+                  <span class="page-link">2</span>
+                </li>
+                
+                <li class="page-item">
+                  <a class="page-link" href="#">-</a>
+                </li>
+              </ul>
+            </nav>
+          </td>
+            <td><div class="te m-4">0</div></td>
+            <td><div class="te m-4"><b>$200</b></div></td>
+          </tr>
+          <tr>
+            <th scope="row"><img src="h3.webp" alt="" width="100%"></th>
+            <td><div class="name" style="float: left;">
+                  <b>Đêm kinh hoàng</b><br>
+                  <p>Trù Phú</p>
+                  <p><b>$9.87</b></p>
+                </div>
+                <div class="delete" style="float: right; ">
+                  <i class="fa-solid fa-trash fa-2xl m-5"></i>
+                </div>
+            </td>
+            <td><nav aria-label="...">
+              <ul class="pagination mt-4">
+                <li class="page-item ">
+                  <span class="page-link">+</span>
+                </li>
+                
+                <li class="page-item ">
+                  <span class="page-link">2</span>
+                </li>
+                
+                <li class="page-item">
+                  <a class="page-link" href="#">-</a>
+                </li>
+              </ul>
+            </nav>
+          </td>
+            <td><div class="te m-4">0</div></td>
+            <td><div class="te m-4"><b>$100</b></div></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="res">
+        <button type="button" class="btn btn-secondary" style="float: left;"><i class="fa-solid fa-arrow-left"></i> Continue shopping</button>
+        <button type="button" class="btn btn-secondary" style="float:right;"><i class="fa-solid fa-rotate-left"></i> Update cart</button>
+      </div>
+    </div>
+    <div class="bang col-xxl-4 col-xl-4 col-lg-12">
+      <button type="button" class="btn btn-success" style="width: 100%;">Proceed to checkout <i class="fa-solid fa-arrow-right"></i></button>
+      <div class="card mt-3" style="width: 100%;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Total products <div class="r" style="float: right;"><b>$216.51</b></div></li>
+          <li class="list-group-item">Shipping <div class="r" style="float: right; color: rgb(17, 189, 17);"><b>Free shipping!</b></div> </li>
+          <li class="list-group-item">Total (tax excl.) <div class="r" style="float: right;"><b>$216.51</b></div></li>
+          <li class="list-group-item">Total tax<div class="r" style="float: right;"><b>$0.00</b></div></li>
+          <li class="list-group-item">Total <div class="r" style="float: right; color: green;"><h3>$216.51</h3></div></li>
+        </ul>
+        <div class="card-body">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Coupon code" aria-label="Search">
+            <button class="btn btn-success" type="submit">Apply</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    </div>
+    <div class="container-fluid accordion-item mt-5">
+      <div class="row">
+        <div class="footer col-xxl-3 col-xl-4 col-lg-6">
+        <h5><span>SUPPORT</span></h5>
+        <hr>
+          <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+          
+          <b><br>
+          <i style="margin-left: 10px;" class="fa-solid fa-phone"></i>
+          
+          <span>+1 635 789 542</span></b>
+          <br>
+          <i class="fa-regular fa-envelope"></i>
+          <span>lorem@gmail.com</span>
+        </div>
+        <div class="footer col-xxl-2 col-xl-4 col-lg-6">
+          <h5><span>SHOP</span></h5>
+          <hr>
+          <p>mens</p>
+          <p>womens</p>
+          <p>kids</p>
+          <p>shoes</p>
+          <p>gift cards</p>
+          </div>
+          <div class="footer col-xxl-2 col-xl-4 col-lg-6">
+            <h5><span>INFORMATIONS</span></h5>
+            <hr>
+            <p>questions</p>
+            <p>order status</p>
+            <p>sizing charts</p>
+            <p>retunr policy</p>
+            <p>contrac us</p>
+            </div>
+            <div class="footer col-xxl-2 col-xl-4 col-lg-6">
+              <h5><span>MY ACCCOUNT</span></h5>
+              <hr>
+              <p>my account</p>
+              <p>my address</p>
+              <p>wish list</p>
+              <p>order list</p>
+              <p>order status</p>
+              </div>
+              <div class="footer col-xxl-3 col-xl-4 col-lg-6">
+                <h5><span>STAY IN TOUCH</span></h5>
+                <hr>
+                <button type="button" class="btn btn-outline-success" style="width: 100%;">email</button>
+                <br><br>
+                <button type="button" class="btn btn-success" style="width: 100%;">SUBCRIBE<i class="fa-solid fa-arrow-right"></i></button>
+                <br><br>
+                <i class="fa-brands fa-facebook""></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-google-plus"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-youtube"></i>
+                </div>
+      </div>
+    </div>
+
+    <div class="footer" style="height: 60px; border-top: 2px solid gray;">
+      <span style="line-height: 60px;">@ TSHOP 2014 All right reserved</span>
+      <span>
+        <img src="pay.png" alt="" style="float: right; margin-top: 5px;">
+      </span>
+    </div> 
+      
+
+
+
+
+
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/1c2be09150.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <style>
+        .thead{
+            background-color: rgb(9, 182, 9);
+            display: flex;
+            justify-content: space-between;
+        }
+        .lef{
+            
+            color: white;
+            margin-left: 20px;
+        }
+        .rig{
+            margin-right: 20px;
+            
+        }
+        .rig a{
+            text-decoration: none;
+            color: white;
+            padding: 1vw;
+        }
+        .boxhead{
+        margin: 0 auto;
+        width: 50%;
+        height: 20px;
+        border-bottom: 1px solid #bdbcbc;
+      }
+      .td{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 43%;
+        right: 43%;
+        font-size: 2vw;
+        text-align: center;
+        background-color: white;
+      }
+      .boxall{
+        position: relative;
+      }
+      .container{
+        margin-top: 50px;
+      }
+      
+      .boxin{
+            margin-top: 10px;
+            border: 1px solid gray;
+            padding: 15px;
+            text-align: center;
+            
+        }
+        
+        .boxin img{
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+        .buy{
+            background-color: rgb(38, 174, 38);
+            color: white;
+            height: 30px;
+            line-height: 30px;
+            width: 50%;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        .new{
+            background-color: rgb(38, 174, 38);
+            color: white;
+            width: 25%;
+            position: absolute;
+            top: 175px;
+        }
+        .sell{
+            background-color: red;
+            color: white;
+            width: 25%;
+            position: absolute;
+            top: 175px;
+        }
+        .carosel-item{
+            width: 100%;
+            height: 400px;
+        }
+        .carosel-item img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="thead">
+        <div class="lef">
+        <span>Help</span>
+        <i style="margin-left: 10px;" class="fa-solid fa-phone"></i>
+        <span>+1 635 789 542</span>
+        </div>
+        <div class="rig">
+            <span>
+                <a href="#">MY ACCOUNT</a>
+                <a href="#"> SING IN</a>
+                <a href="#">CREAT ACCOUNT</a>
+            </span>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h3>TS shop</h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  New Product
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Page
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">All page link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle d-inline-block" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-cart-shopping "></i>
+                        CART ($300.00)
+                        
+                    </a>
+                    <i class="fa-solid fa-magnifying-glass d-inline-block "></i>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    
+                  <div>
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="baner1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="baner2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="baner3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      
+      
+      <div class="container">
+          <div class="row">
+              <div class="boxall col-xxl-3 col-xl-4 col-lg-6">
+                  <div class="boxin">
+                      <img src="1387cfa78af90a8973b17f10b50476a8.jpg_720x720q80.jpg" alt="">
+                      <h5 >HODDIE</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <span>XL/XXL/S</span><br>
+                      <span><strong>$25</strong></span>
+                      <div class="buy">
+                          <span class="fw-bold"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+                      </div>
+                  </div>
+                      <div class="new">
+                          <span style="margin-left: 15%; " class="fw-bold">NEW</span>
+                      </div>
+                      <div class="sell" style="left: 80px;">
+                          <span class="fw-bold">15%OFF</span>
+                      </div>
+  
+  
+              </div>
+              <div class="boxall col-xxl-3 col-xl-4 col-lg-6">
+                  <div class="boxin">
+                      <img src="giay.jpg" alt="">
+                      <h5 >GIÀY</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <span>XL/XXL/S</span><br>
+                      <span><strong>$25</strong></span>
+                      <div class="buy">
+                          <span class="fw-bold"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+                      </div>
+                  </div>
+                      <div class="sell"">
+                          <span class="fw-bold">15%OFF</span>
+                      </div>
+  
+  
+              </div>
+              <div class="boxall col-xxl-3 col-xl-4 col-lg-6">
+                  <div class="boxin">
+                      <img src="quan.jpg" alt="">
+                      <h5 >QUẦN</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <span>XL/XXL/S</span><br>
+                      <span><strong>$25</strong></span>
+                      <div class="buy">
+                          <span class="fw-bold"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+                      </div>
+                  </div>
+                      <div class="new">
+                          <span style="margin-left: 15%; " class="fw-bold">NEW</span>
+                      </div>
+                      
+  
+  
+              </div>
+              <div class="boxall col-xxl-3 col-xl-4 col-lg-6">
+                  <div class="boxin">
+                      <img src="mu.jpg" alt="">
+                      <h5 >MŨ</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <span>XL/XXL/S</span><br>
+                      <span><strong>$25</strong></span>
+                      <div class="buy">
+                          <span class="fw-bold"><i class="fa-solid fa-cart-shopping"></i> Add to cart</span>
+                      </div>
+                  </div>
+                     
+  
+  
+              </div>
+              
+  
+  
+  
+  
+  
+  
+          </div>
+      </div>
+
+
+      <img src="baner4.jpg" class="img-fluid" alt="..." width="100%" style="margin-top: 20px;">
+
+
+
+      <div class="container accordion-item">
+        <div class="row">
+          <div class="footer col-xxl-3 col-xl-4 col-lg-6">
+          <h5><span>SUPPORT</span></h5>
+          <hr>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+            
+            <b><br>
+            <i style="margin-left: 10px;" class="fa-solid fa-phone"></i>
+            
+            <span>+1 635 789 542</span></b>
+            <br>
+            <i class="fa-regular fa-envelope"></i>
+            <span>lorem@gmail.com</span>
+          </div>
+          <div class="footer col-xxl-2 col-xl-4 col-lg-6">
+            <h5><span>SHOP</span></h5>
+            <hr>
+            <p>mens</p>
+            <p>womens</p>
+            <p>kids</p>
+            <p>shoes</p>
+            <p>gift cards</p>
+            </div>
+            <div class="footer col-xxl-2 col-xl-4 col-lg-6">
+              <h5><span>INFORMATIONS</span></h5>
+              <hr>
+              <p>questions</p>
+              <p>order status</p>
+              <p>sizing charts</p>
+              <p>retunr policy</p>
+              <p>contrac us</p>
+              </div>
+              <div class="footer col-xxl-2 col-xl-4 col-lg-6">
+                <h5><span>MY ACCCOUNT</span></h5>
+                <hr>
+                <p>my account</p>
+                <p>my address</p>
+                <p>wish list</p>
+                <p>order list</p>
+                <p>order status</p>
+                </div>
+                <div class="footer col-xxl-3 col-xl-4 col-lg-6">
+                  <h5><span>STAY IN TOUCH</span></h5>
+                  <hr>
+                  <button type="button" class="btn btn-outline-success" style="width: 100%;">email</button>
+                  <br><br>
+                  <button type="button" class="btn btn-success" style="width: 100%;">SUBCRIBE<i class="fa-solid fa-arrow-right"></i></button>
+                  <br><br>
+                  <i class="fa-brands fa-facebook""></i>
+                  <i class="fa-brands fa-square-twitter"></i>
+                  <i class="fa-brands fa-google-plus"></i>
+                  <i class="fa-brands fa-pinterest"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  </div>
+        </div>
+      </div>
+
+      <div class="footer" style="height: 60px; border-top: 2px solid gray;">
+        <span style="line-height: 60px;">@ TSHOP 2014 All right reserved</span>
+        <span>
+          <img src="pay.png" alt="" style="float: right; margin-top: 5px;">
+        </span>
+      </div>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1c2be09150.js" crossorigin="anonymous"></script>
+</body>
+</html>
